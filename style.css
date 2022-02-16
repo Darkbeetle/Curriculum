@@ -146,6 +146,30 @@
         padding-left: 36%;
         padding-right: 20%;
     }
+    .imprimir{
+        background: linear-gradient(to bottom right, #474aef, #7bff5a);
+        border: 0;
+        border-radius: 12px;
+        color: #080808;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 2.5;
+        outline: transparent;
+        padding: 0 1rem;
+        text-align: center;
+        text-decoration: none;
+        transition: box-shadow .2s ease-in-out;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+        margin-top: 10%;
+        margin-top: 4%;
+    }
+    
 }
 @media only screen and (max-width: 900px){
 
@@ -337,5 +361,6 @@
         padding-left: 15%;
         padding-right: 10%;
     }
+    
     
     }
