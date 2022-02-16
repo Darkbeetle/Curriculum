@@ -1,99 +1,341 @@
-body{
-    margin: auto;
-    padding: auto;
+@media only screen and (min-width: 901px){
+    body{
+        margin: auto;
+        padding: auto;
+        
+    }
+    .cabecero {
+        display: flex;
+        background: linear-gradient(to bottom right, #474aef, #7bff5a);
+        justify-content: space-around;
+    }
     
+    .imagen {
+        border-radius: 50%; 
+        height: 250px;
+        width: 250px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .nombreapellido{
+        display:flex;
+        flex-direction: column;
+        background: transparent;
+        text-align: right;
+        justify-content: center;
+        
+    }
+    .apellido{
+        margin-top: 0px;
+        font-size: 25px;
+        
+    }
+    .nombre{
+        font-size: 35px;
+        width: 700;
+    }
+    .nombreapellido{
+        margin-bottom: 0px;
+    }
+    .redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: medium;
+        color: rgb(0, 0, 0);
+        margin-top: 10px;
+    }
+    .button1{
+        background: linear-gradient(to bottom right, #474aef, #7bff5a);
+        border: 0;
+        border-radius: 12px;
+        color: #080808;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 2.5;
+        outline: transparent;
+        padding: 0 1rem;
+        text-align: center;
+        text-decoration: none;
+        transition: box-shadow .2s ease-in-out;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+    }
+    .cuerpo{
+        display: flex;
+        
+        
+    }
+    .columnaizq{
+        width: 700px;
+        padding-left: 10%;
+        margin-top: 30px;
+        
+    }
+    .quiensoy{
+        font-family: serif;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .descripcion{
+        font-weight: 600 ;
+    }
+    .programas{
+        font-family: serif;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .aficiones{
+        font-family: serif;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .columnacentral{
+        margin-top: 30px;
+        margin-left: 15%;
+        
+    }
+    .experiencia{
+        display: flex;
+        flex-direction: row;
+        font-family: serif;
+        font-size: 30px;
+        font-weight: 600;
+        width: 400px;
+    }
+    .fechaempresas{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2%;
+    }
+    .empresas{
+        display: flex;
+        flex-direction: column;
+        padding-left: 40%;
+        padding-right: 20%;
+    }
+    .fechas{
+        width: 200px;
+    }
+    .constestudios{
+        display: flex;
+        flex-direction: row;
+    }
+    .educacion{
+        display: flex;
+        flex-direction: row;
+        font-family: serif;
+        font-size: 30px;
+        font-weight: 600;
+        width: 400px;
+    
+    }
+    .educatitulos{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0%;
+    }
+    .titulos{
+        display: flex;
+        flex-direction: column;
+        padding-left: 36%;
+        padding-right: 20%;
+    }
 }
-.cabecero {
-    display: flex;
-    background: linear-gradient(to bottom right, #474aef, #7bff5a);
-    justify-content: space-around;
-}
+@media only screen and (max-width: 900px){
 
-.imagen {
-    border-radius: 50%; 
-    height: 250px;
-    width: 250px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.nombreapellido{
-    display:flex;
-    flex-direction: column;
-    background: transparent;
-    text-align: right;
-    justify-content: center;
+    body{
+        margin: auto;
+        padding: auto;
+        
+    }
+    .cabecero {
+        display: flex;
+        flex-direction: row;
+        background-color: none;
+        justify-content: space-between;
+        background: linear-gradient(to bottom right, #474aef, #7bff5a);
+        height: 70px;
+        
+    }
     
-}
-.apellido{
-    margin-top: 0px;
+    .imagen {
+        border-radius: 50%; 
+        height: 70px;
+        width: 70px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: 30%;
+    }
+    .nombreapellido{
     
-}
-.nombreapellido{
-    margin-bottom: 0px;
-}
-.redes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: medium;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-}
-.button1{
-    background: linear-gradient(to bottom right, #474aef, #7bff5a);
-    border: 0;
-    border-radius: 12px;
-    color: #080808;
-    cursor: pointer;
-    display: inline-block;
-    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 2.5;
-    outline: transparent;
-    padding: 0 1rem;
-    text-align: center;
-    text-decoration: none;
-    transition: box-shadow .2s ease-in-out;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-}
-.cuerpo{
-    display: flex;
-    
-}
-.columnaizq{
-    width: 400px;
-    padding-left: 10%;
-    margin-top: 30px;
-    
-}
-.quiensoy{
-    font-family: serif;
-    font-size: 30px;
-    font-weight: 600;
-}
-.descripcion{
-    font-weight: 600 ;
-}
-.columnacentral{
-    margin-top: 30px;
-    margin-left: 12%;
+        display:flex;
+        flex-direction: column;
+        background: transparent;
+        text-align: right;
+        justify-content: center;
+        font-size: small;
+        padding-right: 15%;
+        gap: 0px;
+        
+    }
+    .nombre{
+        font-size: medium;
+        font-weight: 600;
+        height: 20px;
+    }
+    .apellido{
+        margin-top: 0px;
+        font-size: small;
+        font-weight: 500;
+        height: 20px;
+        
+    }
+    .estudios{
+        font-size: xx-small;
+        height: 20px;
+        color: grey;
+    }
+    .nombreapellido{
+        margin-bottom: 0px;
+        font-size: small;
+    }
+    .redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: medium;
+        color: rgb(0, 0, 0);
+        margin-top: 10px;
+        margin-right: 7%;
+    }
+    .button1{
+        background: linear-gradient(to bottom right, #474aef, #7bff5a);
+        border: 0;
+        border-radius: 12px;
+        color: #080808;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-size: 8px;
+        font-weight: 500;
+        line-height: 2.5;
+        outline: transparent;
+        padding: 0 1rem;
+        text-align: center;
+        text-decoration: none;
+        transition: box-shadow .2s ease-in-out;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+    }
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        margin-right: 4%;
+        
+    }
+    .columnaizq{
+        padding-left: 7%;
+        margin-top: 30px;
+        padding-right: 4%;
+        
+    }
+    .quiensoy{
+        font-family: serif;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .descripcion{
+        font-weight: 600 ;
+        font-size: 10px;
+        padding-left: 3%;
+    }
+    .programas{
+        font-family: serif;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .skills{
 
-    
-    
-}
-.experiencia{
-    display: flex;
-    flex-direction: row;
-    font-family: serif;
-    font-size: 30px;
-    font-weight: 600;
-    width: 400px;
-    
+        font-size: 10px;
+        padding-left: 25%;
 
+    }
+    .aficiones{
+        font-family: serif;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .hobbies{
+        font-size: 10px;
+        padding-left: 3%;
+        
+        
+    }
+    .columnacentral{
+        margin-top: 30px;
+        padding-left: 7%;
+        
+    }
+    .experiencia{
+        display: flex;
+        flex-direction: row;
+        font-family: serif;
+        font-size: 20px;
+        font-weight: 600;
+        width: 400px;
+    }
+    .fechaempresas{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2%;
+        font-size: 10px;
+    }
+    .empresas{
+        display: flex;
+        flex-direction: column;
+        padding-left: 25%;
+        padding-right: 10%;
+        font-size: 10px;
+    }
+    .fechas{
+        width: 200px;
+    }
+    .constestudios{
+        display: flex;
+        flex-direction: row;
+    }
+    .educacion{
+        display: flex;
+        flex-direction: row;
+        font-family: serif;
+        font-size: 20px;
+        font-weight: 600;
+        width: 400px;
     
-}
-
+    }
+    .educatitulos{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0%;
+        font-size: 10px;
+       
+    }
+    .titulos{
+        display: flex;
+        flex-direction: column;
+        padding-left: 36%;
+        padding-right: 20%;
+        font-size: 10px;
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+    
+    }
